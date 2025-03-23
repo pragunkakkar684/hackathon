@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .header {
+            background-color: #0078d4;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .body {
+            padding: 20px;
+            color: #333333;
+        }
+        .body p {
+            line-height: 1.6;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        .footer {
+            background-color: #f4f4f4;
+            color: #777777;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+            border-top: 1px solid #dddddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="header">
+            <h1>Welcome, ${name}!</h1>
+        </div>
+        <div class="body">
+            <p>Hi ${name},</p>
+            <p>We are excited to have you onboard! This is a test email to demonstrate our cool and personalized email template.</p>
+            <p>Let us know if you have any questions or need further assistance.</p>
+            <p>Best regards,</p>
+            <p><strong>Pragun Kakkar</strong></p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Email Sender Script. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
