@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.8",
+    "axios": "^1.8.4",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "express-validator": "^7.2.1",
+    "framer-motion": "^12.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "recharts": "^2.15.1"
+  }
+}
